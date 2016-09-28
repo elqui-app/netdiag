@@ -1,13 +1,13 @@
 {
   "name": "netdiag",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CLI tool to diagnostic networks",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "netdiag": "bin/diagnotic.js"
+    "netdiag": "bin/diagnostic.js"
   },
   "repository": {
     "type": "git",
