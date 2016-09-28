@@ -90,7 +90,7 @@ if (options['dns-scan'] || options['auto']) {
     console.log('dns servers detected: '+JSON.stringify(dnsLegacy.getServers()))
 }
 
-if (options['dns-req'].length  || options['auto']) {
+if ((options['dns-req'] && options['dns-req'].length)  || options['auto']) {
     if (options['server']) {
         options['dns-req'].forEach(function (request) {
             var question = dns.Question({
