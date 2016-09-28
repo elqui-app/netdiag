@@ -1,0 +1,31 @@
+{
+  "name": "netdiag",
+  "version": "0.1.0",
+  "description": "CLI tool to diagnostic networks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "netdiag": "bin/diagnotic.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elqui-app/netdiag.git"
+  },
+  "keywords": [
+    "network",
+    "dns"
+  ],
+  "author": "Thibault Friedrich <tf@elqui.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elqui-app/netdiag/issues"
+  },
+  "homepage": "https://github.com/elqui-app/netdiag#readme",
+  "dependencies": {
+    "command-line-args": "^3.0.1",
+    "command-line-usage": "^3.0.3",
+    "native-dns": "^0.7.0"
+  }
+}
